@@ -3,8 +3,8 @@ import email
 from datetime import datetime
 
 server = "imap.gmail.com"
-user = "jashjetly@gmail.com"
-pas = "xbcw jazg zsja tpkj"
+user = "<Your mail id>"
+pas = "<your mail password from app passwords>"
 
 imap = imaplib.IMAP4_SSL(server)
 imap.login(user, pas)
